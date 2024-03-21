@@ -25,7 +25,7 @@ LOCAL_PATH := $(call my-dir)
 # if some modules are built directly from this directory (not subdirectories),
 # their rules should be written here.
 
-ifneq (,$(filter $(TARGET_DEVICE),lynx))
+ifneq ($(filter lynx,$(TARGET_DEVICE)),)
 DM_LIBS := libdmengine.so libdmjavaplugin.so
 DM_32_SYMLINKS := $(addprefix $(TARGET_OUT_PRODUCT)/priv-app/DMService/lib/arm/,$(notdir $(DM_LIBS)))
 $(DM_32_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
