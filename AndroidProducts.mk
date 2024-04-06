@@ -21,4 +21,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_lynx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lynx-userdebug
+    lineage_lynx-ap1a-userdebug
