@@ -21,4 +21,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/everest_lynx.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_lynx-ap1a-userdebug
+    everest_lynx-userdebug
