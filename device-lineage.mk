@@ -6,6 +6,7 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/oriole/overlay-everest
 
 # ANGLE - Almost Native Graphics Layer Engine
 PRODUCT_PACKAGES += \
