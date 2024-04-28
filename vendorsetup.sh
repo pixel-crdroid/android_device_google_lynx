@@ -8,4 +8,4 @@ git clone -b udc git@github.com:Evolution-X-Devices/packages_apps_PixelParts.git
 git clone -b 14.0 git@github.com:pixel-crdroid/android_device_google_pantah.git device/google/pantah
 git clone https://android.googlesource.com/device/google/lynx-kernel device/google/lynx-kernel 
 git clone https://android.googlesource.com/device/google/pantah-kernel device/google/pantah-kernel
-git clone https://Yaduvanshi8810@bitbucket.org/yadubanshi/vendor_gms.git vendor/gms
+git clone git@gitea.com:Vikas-V2/pixel_vendor_gapps.git vendor/gms
