@@ -30,8 +30,8 @@ EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=lynx \
-    PRIVATE_BUILD_DESC="lynx-user 14 AP1A.240405.002.B1 11677284 release-keys"
+    PRIVATE_BUILD_DESC="lynx-user 14 AP1A.240505.005 11677807 release-keys"
 
-BUILD_FINGERPRINT := google/lynx/lynx:14/AP1A.240405.002.B1/11677284:user/release-keys
+BUILD_FINGERPRINT := google/lynx/lynx:14/AP1A.240505.005/11677807:user/release-keys
 
 $(call inherit-product, vendor/google/lynx/lynx-vendor.mk)
